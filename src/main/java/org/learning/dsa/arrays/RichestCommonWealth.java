@@ -1,4 +1,4 @@
-package org.learning.dsa;
+package org.learning.dsa.arrays;
 
 public class RichestCommonWealth {
     public static void main(String[] args) {

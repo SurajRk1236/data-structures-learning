@@ -1,4 +1,4 @@
-package org.learning.dsa;
+package org.learning.dsa.arrays;
 
 public class MatrixDiagonalSum {
     public static void main(String[] args) {
