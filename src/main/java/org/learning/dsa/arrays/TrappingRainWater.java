@@ -2,7 +2,7 @@ package org.learning.dsa.arrays;
 
 public class TrappingRainWater {
     public static void main(String[] args) {
-        int[] arr = {4,2,0,3,2,5};
+        int[] arr = {1,8,6,2,5,4,8,3,7};
         int trap = trap(arr);
         System.out.println(trap);
     }
