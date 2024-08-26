@@ -1,5 +1,7 @@
 package org.learning.dsa.arrays;
 
+import java.util.List;
+
 public class RichestCommonWealth {
     public static void main(String[] args) {
         int[][] array = {
@@ -17,6 +19,20 @@ public class RichestCommonWealth {
             int sum = 0;
             for (int j = 0; j < column; j++) {
                 sum += accounts[i][j];
+            }
+            max = Math.max(sum, max);
+        }
+        return max;
+    }
+
+    static int solve(List<List<Integer>>  input){
+        int row = input.size();
+        int column = input.get(0).size();
+        int max = Integer.MIN_VALUE;
+        for (List<Integer> integers : input) {
+            int sum = 0;
+            for (int j = 0; j < column; j++) {
+                sum += integers.get(j);
             }
             max = Math.max(sum, max);
         }

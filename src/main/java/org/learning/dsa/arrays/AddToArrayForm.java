@@ -8,6 +8,9 @@ public class AddToArrayForm {
     public static void main(String[] args) {
         int[] num = {1, 2, 0, 0}; // Array form of integer
         int k = 34; // Integer to add
+
+        // output 1200+34 = 1234;
+
         int[] result = addToArrayForm(num, k);
         // Print the result
         for (int value : result) {
@@ -38,7 +41,7 @@ public class AddToArrayForm {
         if (carry > 0) {
             result.add(carry);
         }
-
+        //result 4321
         // Reverse the result to get the correct order
         Collections.reverse(result);
 
