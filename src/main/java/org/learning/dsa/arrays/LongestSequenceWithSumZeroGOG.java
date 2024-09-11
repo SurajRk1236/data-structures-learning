@@ -1,6 +1,7 @@
 package org.learning.dsa.arrays;
 
 import java.util.HashMap;
+import java.util.Map;
 
 public class LongestSequenceWithSumZeroGOG {
     public static void main(String[] args) {
@@ -9,7 +10,7 @@ public class LongestSequenceWithSumZeroGOG {
 
     public static int maxLen(int[] nums) {
         // HashMap to store (sum, index) pairs
-        HashMap<Integer, Integer> map = new HashMap<>();
+        Map<Integer, Integer> map = new HashMap<>();
         int sum = 0;
         int max_len = 0;
 

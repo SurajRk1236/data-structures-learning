@@ -13,6 +13,7 @@ public class ConcatenationOfArray {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5};
         System.out.println(Arrays.toString(getConcatenation(arr)));
+        //out put = 1, 2, 3, 4, 5, 1, 2, 3, 4, 5
 
     }
 

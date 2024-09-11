@@ -19,6 +19,7 @@ public class FindNthSquareRootGFG {
             else if (square < x) start = mid;
             else end = mid;
         }
+        
 
         return mid;
     }

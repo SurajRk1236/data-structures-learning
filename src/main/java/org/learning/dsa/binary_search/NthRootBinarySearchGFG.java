@@ -20,6 +20,7 @@ public class NthRootBinarySearchGFG {
             }
         }
 
+
         return (low + high) / 2; // Return the mid value after loop
     }
 
