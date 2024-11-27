@@ -2,7 +2,7 @@ package org.learning.dsa.strings;
 
 import java.util.HashMap;
 import java.util.Map;
-
+//
 public class SumOfBeautyOfAllStrings1781 {
     public static void main(String[] args) {
         System.out.println(beautySum("aabcbaa"));

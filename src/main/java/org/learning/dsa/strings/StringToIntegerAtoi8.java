@@ -2,8 +2,8 @@ package org.learning.dsa.strings;
 
 public class StringToIntegerAtoi8 {
     public static void main(String[] args) {
-//        System.out.println(myAtoi("1337c0d3"));
-        System.out.println(Math.abs(-2));
+    System.out.println(myAtoi("1337c0d3"));
+     //   System.out.println(Math.abs(-2));
     }
 
     public static int myAtoi(String s) {

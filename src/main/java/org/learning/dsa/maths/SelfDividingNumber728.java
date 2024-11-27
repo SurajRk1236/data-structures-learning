@@ -3,7 +3,7 @@ package org.learning.dsa.maths;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SelfDividingNumber {
+public class SelfDividingNumber728 {
 
     public static void main(String[] args) {
         System.out.println(selfDividingNumbers(47, 85));

@@ -7,9 +7,9 @@ public class ExcelSheetColumn {
 
     public static String convertToTitle(int columnNumber) {
         StringBuilder column = new StringBuilder();
-        while(columnNumber > 0){
+        while (columnNumber > 0) {
             columnNumber--;
-            column.append((char)(columnNumber%26 + 'A'));
+            column.append((char) (columnNumber % 26 + 'A'));
             columnNumber = columnNumber / 26;
         }
         return column.reverse().toString();

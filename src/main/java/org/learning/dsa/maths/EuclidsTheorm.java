@@ -1,5 +1,6 @@
 package org.learning.dsa.maths;
 
+//
 public class EuclidsTheorm {
     public static void main(String[] args) {
         System.out.println(greatestCommonDivisor(40,84));

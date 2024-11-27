@@ -1,6 +1,8 @@
 package org.learning.dsa.arrays;
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Convert1Dto2D2022 {
     public static void main(String[] args) {

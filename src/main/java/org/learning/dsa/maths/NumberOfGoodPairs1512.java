@@ -1,12 +1,11 @@
 package org.learning.dsa.maths;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class NumberOfGoodPairs {
+public class NumberOfGoodPairs1512 {
     public static void main(String[] args) {
         int[] arr = new int[]{1, 2, 3};
         System.out.println(numIdenticalPairs(arr));

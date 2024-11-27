@@ -1,5 +1,6 @@
 package org.learning.dsa.recursion;
 
+//
 public class PowerOfNandX50 {
     public static void main(String[] args) {
         System.out.println(myPow(2.1, 3));

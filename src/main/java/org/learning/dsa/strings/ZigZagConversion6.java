@@ -1,5 +1,5 @@
 package org.learning.dsa.strings;
-
+//
 public class ZigZagConversion6 {
     public static void main(String[] args) {
         System.out.println(convert("PAYPALISHIRING", 3));
